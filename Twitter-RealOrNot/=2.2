@@ -1,0 +1,63 @@
+Collecting spacy
+  Downloading https://files.pythonhosted.org/packages/92/1b/a982be17aa65d61121718f0309a2d8a56a04d6babee4c1a6882965f0d56d/spacy-2.2.4.tar.gz (6.1MB)
+Collecting murmurhash<1.1.0,>=0.28.0 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/1a/be/1a824e7faeb786af7e9931a29034f09d877e3340c536dc9bf10f65b4d422/murmurhash-1.0.2-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
+Collecting cymem<2.1.0,>=2.0.2 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/ce/8d/d095bbb109a004351c85c83bc853782fc27692693b305dd7b170c36a1262/cymem-2.0.3.tar.gz
+Collecting preshed<3.1.0,>=3.0.2 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/b2/44/f244c9b1c8d5ca79e0afdd20e04a93b45160f1541f9904c44673bb8e48d1/preshed-3.0.2-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
+Collecting thinc==7.4.0 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/f3/0b/10bbd6c847ea4cf2c54f6857ac3d4d0dda269ecb75ec37630ac860280571/thinc-7.4.0.tar.gz
+Collecting blis<0.5.0,>=0.4.0 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/09/e0/7f618f18497135cc98f0a09ccaaad795efe044b7e2cfd3f4251acb2a9d0a/blis-0.4.1-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
+Collecting wasabi<1.1.0,>=0.4.0 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/39/69/4b5a64b25a18f5a05f33c6a4f0bd0fc9f117b6327e7c673548ae3a7c784f/wasabi-0.6.0.tar.gz
+Collecting srsly<1.1.0,>=1.0.2 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/c4/28/ffb9f0b940041aeaec2194e840b5ffe19d0ae252de89579fa8b810174d9f/srsly-1.0.2.tar.gz
+Collecting catalogue<1.1.0,>=0.0.7 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/6c/f9/9a5658e2f56932e41eb264941f9a2cb7f3ce41a80cb36b2af6ab78e2f8af/catalogue-1.0.0-py2.py3-none-any.whl
+Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /Users/rachit/anaconda2/lib/python2.7/site-packages (from spacy)
+Requirement already satisfied: setuptools in /Users/rachit/anaconda2/lib/python2.7/site-packages (from spacy)
+Requirement already satisfied: numpy>=1.15.0 in /Users/rachit/anaconda2/lib/python2.7/site-packages (from spacy)
+Collecting plac<1.2.0,>=0.9.6 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/86/85/40b8f66c2dd8f4fd9f09d59b22720cffecf1331e788b8a0cab5bafb353d1/plac-1.1.3-py2.py3-none-any.whl
+Requirement already satisfied: requests<3.0.0,>=2.13.0 in /Users/rachit/anaconda2/lib/python2.7/site-packages (from spacy)
+Collecting pathlib==1.0.1 (from spacy)
+  Using cached https://files.pythonhosted.org/packages/ac/aa/9b065a76b9af472437a0059f77e8f962fe350438b927cb80184c32f075eb/pathlib-1.0.1.tar.gz
+Collecting importlib-metadata>=0.20; python_version < "3.8" (from catalogue<1.1.0,>=0.0.7->spacy)
+  Using cached https://files.pythonhosted.org/packages/8b/03/a00d504808808912751e64ccf414be53c29cad620e3de2421135fcae3025/importlib_metadata-1.5.0-py2.py3-none-any.whl
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /Users/rachit/anaconda2/lib/python2.7/site-packages (from requests<3.0.0,>=2.13.0->spacy)
+Requirement already satisfied: idna<2.9,>=2.5 in /Users/rachit/anaconda2/lib/python2.7/site-packages (from requests<3.0.0,>=2.13.0->spacy)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rachit/anaconda2/lib/python2.7/site-packages (from requests<3.0.0,>=2.13.0->spacy)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rachit/anaconda2/lib/python2.7/site-packages (from requests<3.0.0,>=2.13.0->spacy)
+Requirement already satisfied: configparser>=3.5; python_version < "3" in /Users/rachit/anaconda2/lib/python2.7/site-packages (from importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy)
+Requirement already satisfied: contextlib2; python_version < "3" in /Users/rachit/anaconda2/lib/python2.7/site-packages (from importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy)
+Requirement already satisfied: pathlib2; python_version < "3" in /Users/rachit/anaconda2/lib/python2.7/site-packages (from importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy)
+Collecting zipp>=0.5 (from importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy)
+  Using cached https://files.pythonhosted.org/packages/96/0a/67556e9b7782df7118c1f49bdc494da5e5e429c93aa77965f33e81287c8c/zipp-1.2.0-py2.py3-none-any.whl
+Requirement already satisfied: six in /Users/rachit/anaconda2/lib/python2.7/site-packages (from pathlib2; python_version < "3"->importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy)
+Requirement already satisfied: scandir in /Users/rachit/anaconda2/lib/python2.7/site-packages (from pathlib2; python_version < "3"->importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy)
+Building wheels for collected packages: spacy, cymem, thinc, wasabi, srsly, pathlib
+  Running setup.py bdist_wheel for spacy: started
+  Running setup.py bdist_wheel for spacy: still running...
+  Running setup.py bdist_wheel for spacy: still running...
+  Running setup.py bdist_wheel for spacy: finished with status 'done'
+  Stored in directory: /Users/rachit/Library/Caches/pip/wheels/70/c2/a9/83efa0ada9379d431648161d6a3c3594fc5d4b13595eb426f1
+  Running setup.py bdist_wheel for cymem: started
+  Running setup.py bdist_wheel for cymem: finished with status 'done'
+  Stored in directory: /Users/rachit/Library/Caches/pip/wheels/ec/63/9a/dd916ca28285b94bd1f1afcbcd2bb65c2cae7ed2b84f565d43
+  Running setup.py bdist_wheel for thinc: started
+  Running setup.py bdist_wheel for thinc: finished with status 'done'
+  Stored in directory: /Users/rachit/Library/Caches/pip/wheels/17/93/c8/001218b3ea7f166099dee9dbe12631805528bfe76ff4f9661d
+  Running setup.py bdist_wheel for wasabi: started
+  Running setup.py bdist_wheel for wasabi: finished with status 'done'
+  Stored in directory: /Users/rachit/Library/Caches/pip/wheels/37/8b/c0/139ab2e6e2d2c3714e5e093ce9f452690fdc3c0916a3786db5
+  Running setup.py bdist_wheel for srsly: started
+  Running setup.py bdist_wheel for srsly: finished with status 'done'
+  Stored in directory: /Users/rachit/Library/Caches/pip/wheels/ca/00/10/4b0f8437a4e0b2e570d9bae313891fd8530a96c7fa43153f37
+  Running setup.py bdist_wheel for pathlib: started
+  Running setup.py bdist_wheel for pathlib: finished with status 'done'
+  Stored in directory: /Users/rachit/Library/Caches/pip/wheels/f9/b2/4a/68efdfe5093638a9918bd1bb734af625526e849487200aa171
+Successfully built spacy cymem thinc wasabi srsly pathlib
+Installing collected packages: murmurhash, cymem, preshed, blis, wasabi, pathlib, srsly, zipp, importlib-metadata, catalogue, plac, thinc, spacy
+Successfully installed blis-0.4.1 catalogue-1.0.0 cymem-2.0.3 importlib-metadata-1.5.0 murmurhash-1.0.2 pathlib-1.0.1 plac-1.1.3 preshed-3.0.2 spacy-2.2.4 srsly-1.0.2 thinc-7.4.0 wasabi-0.6.0 zipp-1.2.0
